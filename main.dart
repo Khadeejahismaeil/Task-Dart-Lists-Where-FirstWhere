@@ -18,8 +18,7 @@ void main() {
 //wheree
   List<int> filterVisitors(List<int> ages, int minAge) {
     return ages.where((age) => age >= minAge).toList();
-    //Creates a List containing the previous elements
-    //.where: Filters a list based on a given condition
+    // tolist convert (minAge) fron int to a list
   }
 
   //  FirstWhere + orelse
